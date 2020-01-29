@@ -8,8 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		393CA01223E21B4D00EBA527 /* CoreDataKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 393CA00823E21B4D00EBA527 /* CoreDataKit.framework */; };
-		393CA01723E21B4D00EBA527 /* CoreDataKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393CA01623E21B4D00EBA527 /* CoreDataKitTests.swift */; };
 		393CA01923E21B4D00EBA527 /* CoreDataKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 393CA00B23E21B4D00EBA527 /* CoreDataKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		393CA02423E21BA000EBA527 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 393CA02323E21BA000EBA527 /* CoreData.framework */; };
+		393CA03823E21C1F00EBA527 /* Auxiliary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393CA02623E21C1F00EBA527 /* Auxiliary.swift */; };
+		393CA03923E21C1F00EBA527 /* SaveMany.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393CA02923E21C1F00EBA527 /* SaveMany.swift */; };
+		393CA03A23E21C1F00EBA527 /* Save.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393CA02A23E21C1F00EBA527 /* Save.swift */; };
+		393CA03B23E21C1F00EBA527 /* DeleteMany.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393CA02C23E21C1F00EBA527 /* DeleteMany.swift */; };
+		393CA03C23E21C1F00EBA527 /* DeleteByID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393CA02D23E21C1F00EBA527 /* DeleteByID.swift */; };
+		393CA03D23E21C1F00EBA527 /* DeleteAll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393CA02E23E21C1F00EBA527 /* DeleteAll.swift */; };
+		393CA03E23E21C1F00EBA527 /* GetByID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393CA03023E21C1F00EBA527 /* GetByID.swift */; };
+		393CA03F23E21C1F00EBA527 /* GetUsingPredicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393CA03123E21C1F00EBA527 /* GetUsingPredicate.swift */; };
+		393CA04023E21C1F00EBA527 /* GetAll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393CA03223E21C1F00EBA527 /* GetAll.swift */; };
+		393CA04123E21C1F00EBA527 /* ListenUpdatesByID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393CA03423E21C1F00EBA527 /* ListenUpdatesByID.swift */; };
+		393CA04223E21C1F00EBA527 /* ListenAll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393CA03523E21C1F00EBA527 /* ListenAll.swift */; };
+		393CA04323E21C1F00EBA527 /* CoreDataGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393CA03623E21C1F00EBA527 /* CoreDataGateway.swift */; };
+		393CA04423E21C1F00EBA527 /* PredicatePlaceholderProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393CA03723E21C1F00EBA527 /* PredicatePlaceholderProvider.swift */; };
+		393CA05A23E21C3200EBA527 /* core-data-kit-test-model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 393CA04523E21C3200EBA527 /* core-data-kit-test-model.xcdatamodeld */; };
+		393CA05B23E21C3200EBA527 /* CoreDataGatewayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393CA04823E21C3200EBA527 /* CoreDataGatewayTests.swift */; };
+		393CA05C23E21C3200EBA527 /* UserDTO+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393CA04C23E21C3200EBA527 /* UserDTO+CoreDataProperties.swift */; };
+		393CA05D23E21C3200EBA527 /* UserDTO+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393CA04D23E21C3200EBA527 /* UserDTO+CoreDataClass.swift */; };
+		393CA05E23E21C3200EBA527 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393CA04F23E21C3200EBA527 /* User.swift */; };
+		393CA05F23E21C3200EBA527 /* DeviceDTO+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393CA05223E21C3200EBA527 /* DeviceDTO+CoreDataClass.swift */; };
+		393CA06023E21C3200EBA527 /* DeviceDTO+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393CA05323E21C3200EBA527 /* DeviceDTO+CoreDataProperties.swift */; };
+		393CA06123E21C3200EBA527 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393CA05523E21C3200EBA527 /* Device.swift */; };
+		393CA06223E21C3200EBA527 /* Functional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393CA05723E21C3200EBA527 /* Functional.swift */; };
+		393CA06323E21C3200EBA527 /* XCTestCase+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393CA05823E21C3200EBA527 /* XCTestCase+Extensions.swift */; };
+		393CA06423E21C3200EBA527 /* Publisher+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393CA05923E21C3200EBA527 /* Publisher+Extensions.swift */; };
+		393CA06623E21D5000EBA527 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393CA06523E21D5000EBA527 /* Array.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,8 +52,33 @@
 		393CA00B23E21B4D00EBA527 /* CoreDataKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreDataKit.h; sourceTree = "<group>"; };
 		393CA00C23E21B4D00EBA527 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		393CA01123E21B4D00EBA527 /* CoreDataKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		393CA01623E21B4D00EBA527 /* CoreDataKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataKitTests.swift; sourceTree = "<group>"; };
 		393CA01823E21B4D00EBA527 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		393CA02323E21BA000EBA527 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
+		393CA02623E21C1F00EBA527 /* Auxiliary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Auxiliary.swift; sourceTree = "<group>"; };
+		393CA02923E21C1F00EBA527 /* SaveMany.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaveMany.swift; sourceTree = "<group>"; };
+		393CA02A23E21C1F00EBA527 /* Save.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Save.swift; sourceTree = "<group>"; };
+		393CA02C23E21C1F00EBA527 /* DeleteMany.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeleteMany.swift; sourceTree = "<group>"; };
+		393CA02D23E21C1F00EBA527 /* DeleteByID.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeleteByID.swift; sourceTree = "<group>"; };
+		393CA02E23E21C1F00EBA527 /* DeleteAll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeleteAll.swift; sourceTree = "<group>"; };
+		393CA03023E21C1F00EBA527 /* GetByID.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetByID.swift; sourceTree = "<group>"; };
+		393CA03123E21C1F00EBA527 /* GetUsingPredicate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetUsingPredicate.swift; sourceTree = "<group>"; };
+		393CA03223E21C1F00EBA527 /* GetAll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetAll.swift; sourceTree = "<group>"; };
+		393CA03423E21C1F00EBA527 /* ListenUpdatesByID.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListenUpdatesByID.swift; sourceTree = "<group>"; };
+		393CA03523E21C1F00EBA527 /* ListenAll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListenAll.swift; sourceTree = "<group>"; };
+		393CA03623E21C1F00EBA527 /* CoreDataGateway.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataGateway.swift; sourceTree = "<group>"; };
+		393CA03723E21C1F00EBA527 /* PredicatePlaceholderProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PredicatePlaceholderProvider.swift; sourceTree = "<group>"; };
+		393CA04623E21C3200EBA527 /* eve-ent-model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "eve-ent-model.xcdatamodel"; sourceTree = "<group>"; };
+		393CA04823E21C3200EBA527 /* CoreDataGatewayTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataGatewayTests.swift; sourceTree = "<group>"; };
+		393CA04C23E21C3200EBA527 /* UserDTO+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserDTO+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		393CA04D23E21C3200EBA527 /* UserDTO+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserDTO+CoreDataClass.swift"; sourceTree = "<group>"; };
+		393CA04F23E21C3200EBA527 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		393CA05223E21C3200EBA527 /* DeviceDTO+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DeviceDTO+CoreDataClass.swift"; sourceTree = "<group>"; };
+		393CA05323E21C3200EBA527 /* DeviceDTO+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DeviceDTO+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		393CA05523E21C3200EBA527 /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		393CA05723E21C3200EBA527 /* Functional.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Functional.swift; sourceTree = "<group>"; };
+		393CA05823E21C3200EBA527 /* XCTestCase+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XCTestCase+Extensions.swift"; sourceTree = "<group>"; };
+		393CA05923E21C3200EBA527 /* Publisher+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Publisher+Extensions.swift"; sourceTree = "<group>"; };
+		393CA06523E21D5000EBA527 /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				393CA02423E21BA000EBA527 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +107,7 @@
 				393CA00A23E21B4D00EBA527 /* CoreDataKit */,
 				393CA01523E21B4D00EBA527 /* CoreDataKitTests */,
 				393CA00923E21B4D00EBA527 /* Products */,
+				393CA02223E21BA000EBA527 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +123,7 @@
 		393CA00A23E21B4D00EBA527 /* CoreDataKit */ = {
 			isa = PBXGroup;
 			children = (
+				393CA02523E21C1F00EBA527 /* CoreDataGateway */,
 				393CA00B23E21B4D00EBA527 /* CoreDataKit.h */,
 				393CA00C23E21B4D00EBA527 /* Info.plist */,
 			);
@@ -80,10 +133,161 @@
 		393CA01523E21B4D00EBA527 /* CoreDataKitTests */ = {
 			isa = PBXGroup;
 			children = (
-				393CA01623E21B4D00EBA527 /* CoreDataKitTests.swift */,
+				393CA04523E21C3200EBA527 /* core-data-kit-test-model.xcdatamodeld */,
+				393CA04723E21C3200EBA527 /* CoreDataGatewayTests */,
+				393CA05623E21C3200EBA527 /* Library */,
 				393CA01823E21B4D00EBA527 /* Info.plist */,
 			);
 			path = CoreDataKitTests;
+			sourceTree = "<group>";
+		};
+		393CA02223E21BA000EBA527 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				393CA02323E21BA000EBA527 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		393CA02523E21C1F00EBA527 /* CoreDataGateway */ = {
+			isa = PBXGroup;
+			children = (
+				393CA02623E21C1F00EBA527 /* Auxiliary.swift */,
+				393CA02723E21C1F00EBA527 /* Operators */,
+				393CA03623E21C1F00EBA527 /* CoreDataGateway.swift */,
+				393CA03723E21C1F00EBA527 /* PredicatePlaceholderProvider.swift */,
+			);
+			path = CoreDataGateway;
+			sourceTree = "<group>";
+		};
+		393CA02723E21C1F00EBA527 /* Operators */ = {
+			isa = PBXGroup;
+			children = (
+				393CA02823E21C1F00EBA527 /* Savers */,
+				393CA02B23E21C1F00EBA527 /* Deleters */,
+				393CA02F23E21C1F00EBA527 /* Getters */,
+				393CA03323E21C1F00EBA527 /* Listeners */,
+			);
+			path = Operators;
+			sourceTree = "<group>";
+		};
+		393CA02823E21C1F00EBA527 /* Savers */ = {
+			isa = PBXGroup;
+			children = (
+				393CA02923E21C1F00EBA527 /* SaveMany.swift */,
+				393CA02A23E21C1F00EBA527 /* Save.swift */,
+			);
+			path = Savers;
+			sourceTree = "<group>";
+		};
+		393CA02B23E21C1F00EBA527 /* Deleters */ = {
+			isa = PBXGroup;
+			children = (
+				393CA02C23E21C1F00EBA527 /* DeleteMany.swift */,
+				393CA02D23E21C1F00EBA527 /* DeleteByID.swift */,
+				393CA02E23E21C1F00EBA527 /* DeleteAll.swift */,
+			);
+			path = Deleters;
+			sourceTree = "<group>";
+		};
+		393CA02F23E21C1F00EBA527 /* Getters */ = {
+			isa = PBXGroup;
+			children = (
+				393CA03023E21C1F00EBA527 /* GetByID.swift */,
+				393CA03123E21C1F00EBA527 /* GetUsingPredicate.swift */,
+				393CA03223E21C1F00EBA527 /* GetAll.swift */,
+			);
+			path = Getters;
+			sourceTree = "<group>";
+		};
+		393CA03323E21C1F00EBA527 /* Listeners */ = {
+			isa = PBXGroup;
+			children = (
+				393CA03423E21C1F00EBA527 /* ListenUpdatesByID.swift */,
+				393CA03523E21C1F00EBA527 /* ListenAll.swift */,
+			);
+			path = Listeners;
+			sourceTree = "<group>";
+		};
+		393CA04723E21C3200EBA527 /* CoreDataGatewayTests */ = {
+			isa = PBXGroup;
+			children = (
+				393CA04823E21C3200EBA527 /* CoreDataGatewayTests.swift */,
+				393CA04923E21C3200EBA527 /* Entities */,
+			);
+			path = CoreDataGatewayTests;
+			sourceTree = "<group>";
+		};
+		393CA04923E21C3200EBA527 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				393CA04A23E21C3200EBA527 /* User */,
+				393CA05023E21C3200EBA527 /* Device */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		393CA04A23E21C3200EBA527 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				393CA04B23E21C3200EBA527 /* Managed */,
+				393CA04E23E21C3200EBA527 /* Plain */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		393CA04B23E21C3200EBA527 /* Managed */ = {
+			isa = PBXGroup;
+			children = (
+				393CA04C23E21C3200EBA527 /* UserDTO+CoreDataProperties.swift */,
+				393CA04D23E21C3200EBA527 /* UserDTO+CoreDataClass.swift */,
+			);
+			path = Managed;
+			sourceTree = "<group>";
+		};
+		393CA04E23E21C3200EBA527 /* Plain */ = {
+			isa = PBXGroup;
+			children = (
+				393CA04F23E21C3200EBA527 /* User.swift */,
+			);
+			path = Plain;
+			sourceTree = "<group>";
+		};
+		393CA05023E21C3200EBA527 /* Device */ = {
+			isa = PBXGroup;
+			children = (
+				393CA05123E21C3200EBA527 /* Managed */,
+				393CA05423E21C3200EBA527 /* Plain */,
+			);
+			path = Device;
+			sourceTree = "<group>";
+		};
+		393CA05123E21C3200EBA527 /* Managed */ = {
+			isa = PBXGroup;
+			children = (
+				393CA05223E21C3200EBA527 /* DeviceDTO+CoreDataClass.swift */,
+				393CA05323E21C3200EBA527 /* DeviceDTO+CoreDataProperties.swift */,
+			);
+			path = Managed;
+			sourceTree = "<group>";
+		};
+		393CA05423E21C3200EBA527 /* Plain */ = {
+			isa = PBXGroup;
+			children = (
+				393CA05523E21C3200EBA527 /* Device.swift */,
+			);
+			path = Plain;
+			sourceTree = "<group>";
+		};
+		393CA05623E21C3200EBA527 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				393CA05723E21C3200EBA527 /* Functional.swift */,
+				393CA05823E21C3200EBA527 /* XCTestCase+Extensions.swift */,
+				393CA05923E21C3200EBA527 /* Publisher+Extensions.swift */,
+				393CA06523E21D5000EBA527 /* Array.swift */,
+			);
+			path = Library;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +399,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				393CA04023E21C1F00EBA527 /* GetAll.swift in Sources */,
+				393CA04323E21C1F00EBA527 /* CoreDataGateway.swift in Sources */,
+				393CA04123E21C1F00EBA527 /* ListenUpdatesByID.swift in Sources */,
+				393CA04223E21C1F00EBA527 /* ListenAll.swift in Sources */,
+				393CA03A23E21C1F00EBA527 /* Save.swift in Sources */,
+				393CA03F23E21C1F00EBA527 /* GetUsingPredicate.swift in Sources */,
+				393CA03823E21C1F00EBA527 /* Auxiliary.swift in Sources */,
+				393CA03D23E21C1F00EBA527 /* DeleteAll.swift in Sources */,
+				393CA03923E21C1F00EBA527 /* SaveMany.swift in Sources */,
+				393CA03E23E21C1F00EBA527 /* GetByID.swift in Sources */,
+				393CA03C23E21C1F00EBA527 /* DeleteByID.swift in Sources */,
+				393CA03B23E21C1F00EBA527 /* DeleteMany.swift in Sources */,
+				393CA04423E21C1F00EBA527 /* PredicatePlaceholderProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,7 +419,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				393CA01723E21B4D00EBA527 /* CoreDataKitTests.swift in Sources */,
+				393CA05D23E21C3200EBA527 /* UserDTO+CoreDataClass.swift in Sources */,
+				393CA05C23E21C3200EBA527 /* UserDTO+CoreDataProperties.swift in Sources */,
+				393CA06323E21C3200EBA527 /* XCTestCase+Extensions.swift in Sources */,
+				393CA06023E21C3200EBA527 /* DeviceDTO+CoreDataProperties.swift in Sources */,
+				393CA06423E21C3200EBA527 /* Publisher+Extensions.swift in Sources */,
+				393CA05A23E21C3200EBA527 /* core-data-kit-test-model.xcdatamodeld in Sources */,
+				393CA05E23E21C3200EBA527 /* User.swift in Sources */,
+				393CA05B23E21C3200EBA527 /* CoreDataGatewayTests.swift in Sources */,
+				393CA06223E21C3200EBA527 /* Functional.swift in Sources */,
+				393CA06623E21D5000EBA527 /* Array.swift in Sources */,
+				393CA05F23E21C3200EBA527 /* DeviceDTO+CoreDataClass.swift in Sources */,
+				393CA06123E21C3200EBA527 /* Device.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,6 +616,7 @@
 		393CA02023E21B4D00EBA527 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YC6855T4ZG;
 				INFOPLIST_FILE = CoreDataKitTests/Info.plist;
@@ -406,6 +635,7 @@
 		393CA02123E21B4D00EBA527 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YC6855T4ZG;
 				INFOPLIST_FILE = CoreDataKitTests/Info.plist;
@@ -452,6 +682,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		393CA04523E21C3200EBA527 /* core-data-kit-test-model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				393CA04623E21C3200EBA527 /* eve-ent-model.xcdatamodel */,
+			);
+			currentVersion = 393CA04623E21C3200EBA527 /* eve-ent-model.xcdatamodel */;
+			path = "core-data-kit-test-model.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 393C9FFF23E21B4D00EBA527 /* Project object */;
 }
